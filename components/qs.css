@@ -1,0 +1,12 @@
+.who {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.title_enterprise {
+    font-size: 2em;
+    font-weight: bold;
+    color: #D29029;
+}

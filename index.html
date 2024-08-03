@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advogada</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/components/hero.css">
+    <link rel="stylesheet" href="/components/module.css">
+    <link rel="stylesheet" href="/components/section.css">
+    <link rel="stylesheet" href="/components/faq.css">
+    <link rel="stylesheet" href="/components/qs.css">
+    <link rel="stylesheet" href="/components/footer.css">
+</head>
+<body>
+    <header class="banner">
+       
+        <div class="banner-content">
+            <div class="logo"><img src="/image/adv.jpg" alt="Imagem da Advogada">
+            </div>
+
+            <div class="content">
+            <h1 class="title">Advogada Criminalista</h1>
+            <p>Tenha a orientação assertiva para seu caso.</p>
+            <button class="btn">Falar com Advogada</button>
+            <p>Encaminhamos seu Caso no Mesmo dia</p>
+            <h1 class="title">Atendimento em todo o Brasil</h1>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="info-content">
+            <h2>Veja como é simples!</h2>
+            <div class="module-list">
+                <div class="module">
+                    <ul>
+                        <li class="list"><img class="imagem-descript" src="/PNG/bubble.png" alt="Imagem de Balão">Você me conta o caso em uma reunião online</li>
+                        <li class="list"><img class="imagem-descript" src="/PNG/file-play.png" alt="">Você me envia fotos dos documentos</li>
+                        <li class="list"><img class="imagem-descript" src="/PNG/file-text2.png" alt="">Eu preparo o procedimento online</li>
+                        <li class="list"><img class="imagem-descript" src="/PNG/mobile.png" alt="">Você assina pelo celular</li>
+                        <li class="list"><img class="imagem-descript" src="/PNG/share.png" alt="">Eu mando para o INSS ou para o juiz no mesmo dia ou no dia seguinte</li>
+                    </ul>
+
+                    
+                </div>
+                
+                
+            </div>
+            <button class="btn">Falar Com Um Especialista</button>
+
+        </section>
+
+        <section class="section_list">
+
+            <div class="logo2">
+                <img  src="/image/adv.jpg" alt="Imagem da Advogada">
+            </div>
+            
+            <div class="info-content2">
+
+                <ul>
+                    <li>Advogada Especializada</li>
+                    <li>Atendimento 100% Online em todo o Brasil</li>
+                    <li>Já ajudei centenas de pessoas</li>
+                    <li>Dou entrada no seu pedido em 24 Horas</li>
+                </ul>
+                
+            </div>
+            <button class="btn">Falar com Advogada Agora</button>
+        </section>
+
+
+        <section class="faq_list">
+            <h2>Perguntas Frequentes</h2>
+
+            <button class="accordion">Quais os Documentos Para Dazer o Pedido</button>
+            <div class="panel">
+               <ul>
+                <li class="list_one">Documento de identificação com foto</li>
+                <li class="list_one">CadÚnico atualizado</li>
+                <li class="list_one">Laudo médico da deficiência</li>
+               </ul>
+            </div>
+
+            <button class="accordion">Preciso Fazer Pericia</button>
+            <div class="panel">
+                <ul>
+                 <li class="list_one">Para o deficiente haverá perícia médica e perícia social.</li>
+                 <li class="list_one">Para o idoso haverá apenas perícia social.</li>
+                </ul>
+             </div>
+
+             <button class="accordion">Como Funciona</button>
+             <div class="panel">
+                <ul>
+                 <li class="list_one">Documento de identificação com foto</li>
+                 <li class="list_one">CadÚnico atualizado</li>
+                 <li class="list_one">Laudo médico da deficiência</li>
+                </ul>
+             </div>
+
+             <button class="accordion">Quantos dias para ser resolvido</button>
+             <div class="panel">
+                <ul>
+                 <li class="list_one">!0 dias</li>
+                 <li class="list_one">20 dias</li>
+                 <li class="list_one">5 dias</li>
+                </ul>
+             </div><br>
+             <button class="btn">Falar com Advogada Agora</button>
+
+        </section>    
+
+        <section class="who">
+            <h1>Quem Somos?</h1>
+            <p class="title_enterprise">Advogacia Imporium</p>
+            <h3>Atendemos em todo o Brasil</h3>
+
+        </section>
+
+        <footer class="footer">
+            <p>&copy; Desenvolvido por <a target="_blank" href="https://www.linkedin.com/in/henry-kaua/">Henry</a></p>
+        </footer>
+
+        
+
+
+        
+
+        
+    </main>
+
+   
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>
